@@ -9,7 +9,7 @@ bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(commands=['start','help'])
 def send_welcome(message):
-    bot.reply_to(message, 'Hallo')
+    bot.reply_to(message, 'Hallo mein Freund')
     print(message.chat.id)
 
 @bot.message_handler(func=lambda m: True)
