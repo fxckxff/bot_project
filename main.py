@@ -41,7 +41,8 @@ def get_price():
     data = response.json()
     return data['data']['rates']['USD']+'$'
 
-#puk
+
+
 
 
 @bot.message_handler(commands=['btc'])
