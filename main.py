@@ -43,7 +43,7 @@ def get_price():
 
 
 
-
+#psjd
 
 @bot.message_handler(commands=['btc'])
 def send_price(message):
